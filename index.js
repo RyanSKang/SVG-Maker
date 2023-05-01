@@ -1,6 +1,24 @@
 // Include packages needed to run application
 const inquirer = require("inquirer");
-const {Triangle, Circle, Square} = require("/lib/shapes.js")
+const gracefulFS = require('./node_modules/graceful-fs/graceful-fs')
+const {Triangle, Circle, Square} = require("./lib/shapes")
+
+// Creating SVG Class
+class SVG{
+    constructor(){
+        this.text=''
+        this.shape=''
+    }
+    render(){
+        return `<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="300" height="200">${this.shape}${this.text}</svg>`
+    }
+    setTextElement(text,color){
+        this.text = `<text x="150" y="125" font-size="60" text-anchor="middle" fill="${color}">${text}</text>`
+    }
+    SetShapeElement(shape){
+        this.shapeElement = shape.render()
+    }
+}
 
 // Step 1. Create a prompt for user to fill criteria of SVG logo maker
 // Step 2. Create Class for Triangle shape
@@ -36,7 +54,7 @@ const questions = [
     {
         type: 'list',
         message: 'What shape would you like for your logo?',
-        choicees: 
+        choices: 
         [
             'Triangle',
             'Circle',
