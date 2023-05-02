@@ -121,6 +121,16 @@ let userShapeEl;
     // console log out the shape color
     console.log(`Shape color: ${shapeColor}`)
 
+// Create a new SVG class with the new shape and text element
+var generatedSVG= new SVG();
+    generatedSVG.setTextElement(userAns, textColor);
+    generatedSVG.SetShapeElement(shapeEl);
+    string=generatedSVG.render();
+
+// Print shape to log 
+console.log("Displaying: \n" + string)
+console.log("Generated logo.svg Complete");
+writetoFile(file, string)
 
 
 
