@@ -54,6 +54,7 @@ const questions = [
     {
         type: 'list',
         message: 'What shape would you like for your logo?',
+        name:'shape',
         choices: 
         [
             'Triangle',
@@ -84,7 +85,7 @@ async function init() {
 
     // Step 5. Validate data within prompt (3 Character limit)
     var userAns="";
-    if (response.text.length > 0 && response.text.length <4){
+    if (response.character.length > 0 && response.character.length <4){
         userAns=response.text;
     } else {
         console.log ("Invalid response in text field, Need 1-3 characters ONLY!")
@@ -131,7 +132,6 @@ var generatedSVG= new SVG();
 console.log("Displaying: \n" + string)
 console.log("Generated logo.svg Complete");
 writetoFile(file, string)
-
-
-
 }
+
+init();
