@@ -1,2 +1,1 @@
-<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-        width="300" height="200"><polygon style="fill:GREEN" points="150, 18 244, 182 56, 182"></polygon><text x="150" y="125" font-size="50" text-anchor="middle" fill="BLACK">BDR</text><svg>
+<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg"><polygon fill="blue" points="150, 18 244, 182 56, 182"></polygon><text x="150" y="125" font-size="50" text-anchor="middle" fill="yellow">spr</text></svg>

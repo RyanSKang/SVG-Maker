@@ -63,8 +63,10 @@ If you want to run test, execute "npm run test"
 ![Screenshot 2023-06-24 at 4 59 35 PM](https://github.com/RyanSKang/Weather-Dashboard/assets/124969918/8f402595-ef39-4e47-814c-9285fba3d363)
 
 ### Figure 3. SVF File Result
+<img width="317" alt="Screenshot 2023-06-24 at 5 57 11 PM" src="https://github.com/RyanSKang/SVG-Maker/assets/124969918/ee5fe659-7cca-4295-a9be-87678d12dda7">
 
 ## Walkthrough Video
+[Untitled_ Jun 24, 2023 6_08 PM.webm](https://github.com/RyanSKang/SVG-Maker/assets/124969918/5f64f563-f4a8-4c88-8056-1c46ddab594f)
 
 ## Credits
 -Office Hours  
