@@ -71,6 +71,7 @@ If you want to run test, execute "npm run test"
 ## Credits
 -Office Hours  
 -1 on 1 tutor: Julio Valdez
+-AskBCS learning assistant 
 
 
 
