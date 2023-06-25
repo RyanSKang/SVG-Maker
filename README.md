@@ -50,7 +50,7 @@ Following Installation Needed:
 1. Using a source code editor, open the cloned repository
 2. Open integrated terminal on index.js and execute an "npm i"
 3. Execute "node index.js"
-4. Respond to the inquierer prompts within the command line
+4. Respond to the inquirer prompts within the command line
 5. Once completed a SVG file named "GeneratedLogo.svg" will be created.
   
 If you want to run test, execute "npm run test"   
@@ -70,7 +70,7 @@ If you want to run test, execute "npm run test"
 
 ## Credits
 -Office Hours  
--1 on 1 tutor: Julio Valdez
+-1 on 1 tutor: Julio Valdez  
 -AskBCS learning assistant 
 
 
